@@ -1,0 +1,11 @@
+{
+  "jspm": {
+    "directories": {
+      "lib": ".",
+      "packages": "jspm_packages"
+    },
+    "dependencies": {
+      "esprima": "npm:esprima@^2.0.0"
+    }
+  }
+}
