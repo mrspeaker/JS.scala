@@ -136,7 +136,6 @@ function rec_node (node, indent = 0) {
     break;
 
   case "MemberExpression":
-    console.log(node, "!");
     out.push("\n")
     if (node.property.name === "apply") {
       rec_node(node.object, indent);
